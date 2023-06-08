@@ -1,0 +1,69 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.purple {
+    background-color: purple;
+}
+
+ul {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 90px;
+}
+
+li {
+    height: 30px;
+    list-style-type: none;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    line-height: 30px;
+    color: cyan;
+
+}
+.cyan {
+    background-color: cyan;
+}
+
+.container {
+    margin: 80px 100px 0;
+}
+
+main {
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+}
+
+.yellow {
+    background-color: yellow;
+    flex-grow: 3;
+}
+
+.lime {
+    background-color: lime;
+    flex-grow: 1;
+}
+
+.lightgrey {
+    background-color: lightgrey;
+}
+
+footer {
+    height: 80px;
+    margin-top: 10px;
+}

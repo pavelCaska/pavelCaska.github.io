@@ -1,0 +1,11 @@
+body {
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+form {
+    width: 50%;
+}
+
+label {
+    display: block;
+}

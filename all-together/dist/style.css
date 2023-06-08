@@ -1,0 +1,66 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.aqua {
+    background-color: aqua;
+}
+.orange {
+    background-color: orange;
+}
+.red {
+    background-color: red;
+}
+.black {
+    background-color: black;
+}
+.purple {
+    background-color: purple;
+}
+.blue {
+    background-color: blue;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    height: 70px;
+    width: inherit;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.midsection {
+    width: inherit;
+    height: 600px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    flex-grow: 1;
+}
+
+main {
+    flex-grow: 3;
+    margin: 0 15px;
+    position: relative;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    bottom: 25px;
+    right: 25px;
+    position: absolute;
+}
+
+footer {
+    height: 70px;
+}
